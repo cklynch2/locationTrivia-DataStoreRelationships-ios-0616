@@ -1,0 +1,16 @@
+//
+//  FISLocationsTableViewController.h
+//  locationTrivia-dataStore
+//
+//  Created by Flatiron School on 6/30/16.
+//  Copyright © 2016 Joe Burgess. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "FISLocationsDataStore.h"
+#import "FISTriviaTableViewController.h"
+
+@interface FISLocationsTableViewController : UITableViewController
+@property (strong, nonatomic) FISLocationsDataStore *store;
+
+@end
